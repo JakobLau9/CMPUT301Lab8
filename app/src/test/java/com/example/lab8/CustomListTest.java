@@ -51,6 +51,7 @@ public class CustomListTest {
         assertEquals(false, test2);
     }
 
+    @Test
     void testDelete(){
         list = MockCityList();
         City city = new City("Regina", "Saskatchewan");
