@@ -50,15 +50,15 @@ public class CustomListTest {
         boolean test2 = list.hasCity(city2);
         assertEquals(false, test2);
     }
-/*
+
     void testDelete(){
         list = MockCityList();
         City city = new City("Regina", "Saskatchewan");
-        list.add(city);
+        list.addCity(city);
         assertEquals(1, list.getCount());
-        list.delete(city);
+        list.deleteCity(city);
         assertEquals(0, list.getCount());
         assertTrue(list.hasCity(city) == false);
-    }*/
+    }
 
 }
